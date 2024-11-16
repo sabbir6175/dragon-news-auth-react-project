@@ -16,7 +16,7 @@ const LeftNavbar = () => {
 
   return (
     <div>
-      <h2 className="font-semibold mb-3">All Caterogy ({categories.length})</h2>
+      <h2 className="font-semibold mb-3">All Category ({categories.length})</h2>
       <div className="flex flex-col gap-2 ">
         {categories.map((category) => (
           <NavLink
